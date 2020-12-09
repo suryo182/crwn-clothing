@@ -7,7 +7,6 @@ import './header.styles.scss';
 
 const Header = ({ currentUser }) => (
   <div className="header">
-    {console.log(currentUser, '<<<< current user in header')}
     <Link to="/" className="logo-container">
       <Logo className="logo" />
     </Link>
